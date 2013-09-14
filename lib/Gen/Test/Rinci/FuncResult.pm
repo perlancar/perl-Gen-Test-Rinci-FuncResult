@@ -14,6 +14,8 @@ require Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw(gen_test_func);
 
+# VERSION
+
 our %SPEC;
 
 $SPEC{gen_test_func} = {
