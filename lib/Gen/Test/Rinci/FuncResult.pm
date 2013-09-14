@@ -144,7 +144,7 @@ sub gen_test_func {
             my $dies = $tfargs{dies} // 0;
             if (!$dies) {
                 ok(!$eval_err, "func doesn't die")
-                    or do { diag "func died: '$dies'"; $suc = 0; goto DONE };
+                    or do { diag "func died: '$eval_err'"; $suc=0; goto DONE };
             } else {
                 ok($eval_err, "func dies") or $suc = 0;
                 goto DONE;
