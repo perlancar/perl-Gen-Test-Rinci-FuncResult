@@ -1,5 +1,13 @@
 Revision history for Gen-Test-Rinci-FuncResult
 
+0.02     2013-09-28 (SHARYANTO)
+
+         - No functional changes. Add tests for failure cases (currently not
+           using Test::Tester because it doesn't work well with subtests,
+           directly running test with Perl subprocess instead and capturing
+           output using Capture::Tiny).
+
+
 0.01     2013-09-15 (SHARYANTO)
 
          - First release.
