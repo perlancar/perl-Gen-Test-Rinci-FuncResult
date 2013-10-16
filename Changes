@@ -1,6 +1,6 @@
 Revision history for Gen-Test-Rinci-FuncResult
 
-0.02     2013-09-28 (SHARYANTO)
+0.02     2013-09-28 (SHARYANTO) - I'm gonna be a father, yay!
 
          - No functional changes. Add tests for failure cases (currently not
            using Test::Tester because it doesn't work well with subtests,
