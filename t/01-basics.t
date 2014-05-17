@@ -7,7 +7,7 @@ use warnings;
 use FindBin '$Bin';
 
 use Capture::Tiny qw(capture);
-use File::Slurp;
+use File::Slurp::Tiny qw(write_file);
 use File::Temp qw(tempfile);
 use Test::More 0.98;
 
