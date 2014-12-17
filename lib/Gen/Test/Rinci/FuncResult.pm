@@ -1,5 +1,8 @@
 package Gen::Test::Rinci::FuncResult;
 
+# DATE
+# VERSION
+
 use 5.010001;
 use strict;
 use warnings;
@@ -13,8 +16,6 @@ use Test::More 0.98;
 require Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw(gen_test_func);
-
-# VERSION
 
 our %SPEC;
 
@@ -194,7 +195,7 @@ sub gen_test_func {
 }
 
 1;
-# ABSTRACT: Generate function to test a function
+# ABSTRACT:
 
 =head1 SYNOPSIS
 
